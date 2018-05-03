@@ -8,9 +8,9 @@ function move(){
         //动画计数器。
         var num = 0;
         //获得移动div，在整个活动区域的X坐标
-        var left = 630;
+        var left = 30;
         //获得移动div，在整个活动区域的Y坐标
-        var top = 220;
+        var top = 620;
         //使用定时器移动DIV
         var timer  =  setInterval(function(){ //移动的函数
           if(num==105){ //移动105次
