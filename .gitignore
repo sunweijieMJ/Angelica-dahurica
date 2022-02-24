@@ -1,0 +1,32 @@
+# Package Manager
+node_modules
+
+# Bundle
+dist
+deploy_versions/
+.temp/
+.rn_temp/
+
+# System directories and files
+.DS_Store
+
+# local files
+project.private.config.json
+
+# Log files
+yarn.lock
+yarn-debug.log
+yarn-error.log
+npm-debug.log
+package-lock.json
+pnpm-lock.yaml
+.pnpm-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
